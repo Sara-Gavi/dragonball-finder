@@ -7,6 +7,7 @@ function FinderPage() {
   // 1. State variables
   const [characters, setCharacters] = useState([]);
   const [nameFilter, setNameFilter] = useState("");
+  const [expandedCharacter, setExpandedCharacter] = useState(null);
 
   // 2. useEffect
   useEffect(() => {
@@ -24,6 +25,17 @@ function FinderPage() {
   const handleInput = (event) => {
     setNameFilter(event.currentTarget.value);
   };
+
+  const handleExpand = (id) => {
+    setExpandedCharacter((prevId) => {
+      if (prevId === id) {
+        return null; // Close the card if it's already open
+      } else {
+        return id; // Open the clicked card
+      }
+    });
+  };
+
   //4. Characters filtered by name input
   const filteredCharacters = characters.filter((character) =>
     character.name.toLowerCase().includes(nameFilter.toLowerCase())
@@ -46,16 +58,44 @@ function FinderPage() {
           />
         </label>
       </form>
-      <>
-        <p className="finder__results"> results found</p>
-        <ul className="finder__list">
-          <li className="finder__item">
-            <span>NAME: </span>
-            <span>KI: </span>
-          </li>
-        </ul>
-      </>
+      {nameFilter !== "" && (
+        <>
+          <p className="finder__results">
+            {filteredCharacters.length} results found
+          </p>
+          <ul className="finder__list">
+            {filteredCharacters.map((character) => (
+              <li
+                key={character.id}
+                className="finder__item"
+                onClick={() => handleExpand(character.id)}
+              >
+                <div className="finder__summary">
+                  <p>{character.name}</p>
+                  <p>{character.ki}</p>
+                </div>
 
+                {expandedCharacter === character.id && (
+                  <div className="finder__details">
+                    <div className="finder__image-wrapper">
+                      <img
+                        src={character.image}
+                        alt={character.name}
+                        className="finder__image"
+                      />
+                    </div>
+                    <p className="finder__description">
+                      {character.description}
+                    </p>
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
+      {/* Kinto logo used to return to the landing page */}
       <div className="finder__logo-end">
         <Link to="/">
           <img src={kintoApp} alt="Volver al inicio" className="finder__logo" />
