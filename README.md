@@ -7,11 +7,11 @@ This app helps you begin that journey: searching and discovering the characters 
 
 ### Landing Page
 
-<img src="./public/landing.png" alt="Landing page" width="300" />
+<img src="./public/landing.png" alt="Landing page" width="350" />
 
-### Search Page
+### Finder Page
 
-<img src="./public/finder.png" alt="Search page" width="300" />
+<img src="./public/finder.png" alt="finder page" width="350" />
 
 ### ✨ Current Features
 
@@ -63,7 +63,7 @@ Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los per
 
 ### Página de búsqueda
 
-<img src="./public/finder.png" alt="Search page" width="300" />
+<img src="./public/finder.png" alt="finder page" width="300" />
 
 ### ✨ Funcionalidades actuales
 
