@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import kintoApp from "../images/kinto_app.png";
-//Hooks para permitir agregar estado y efectos a componentes
+// Hooks to allow adding state and effects to components
 import { useState, useEffect } from "react";
 
 function FinderPage() {
-  // 1. Variables de estado
+  // 1. State variables
   const [characters, setCharacters] = useState([]);
   const [nameFilter, setNameFilter] = useState("");
 
@@ -20,6 +20,15 @@ function FinderPage() {
       });
   }, []);
 
+  // 3. Event functions
+  const handleInput = (event) => {
+    setNameFilter(event.currentTarget.value);
+  };
+  //4. Characters filtered by name input
+  const filteredCharacters = characters.filter((character) =>
+    character.name.toLowerCase().includes(nameFilter.toLowerCase())
+  );
+
   return (
     <div className="finder">
       <h1 className="finder__title">Discover your character!</h1>
@@ -31,8 +40,8 @@ function FinderPage() {
             type="text"
             id="name"
             placeholder="Master Roshi"
-            value=""
-            onInput=""
+            value={nameFilter}
+            onInput={handleInput}
             className="finder__input"
           />
         </label>
