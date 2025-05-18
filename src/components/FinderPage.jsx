@@ -3,8 +3,31 @@ import kintoApp from "../images/kinto_app.png";
 
 function FinderPage() {
   return (
-    <div className="finder-page">
-      <p>Coming soon... Dragon Finder</p>
+    <div className="finder">
+      <h1 className="finder__title">Discover your character!</h1>
+
+      <form className="finder__form">
+        <p className="finder__subtitle">Find them by name</p>
+        <label htmlFor="name" className="finder__label">
+          <input
+            type="text"
+            id="name"
+            placeholder="Master Roshi"
+            value=""
+            onInput=""
+            className="finder__input"
+          />
+        </label>
+      </form>
+      <>
+        <p className="finder__results"> results found</p>
+        <ul className="finder__list">
+          <li className="finder__item">
+            <span>NAME: </span>
+            <span>KI: </span>
+          </li>
+        </ul>
+      </>
 
       <div className="finder__logo-end">
         <Link to="/">
