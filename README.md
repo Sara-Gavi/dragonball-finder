@@ -7,11 +7,11 @@ This app helps you begin that journey: searching and discovering the characters 
 
 ### Landing Page
 
-<img src="./public/landing.png" alt="Landing page" width="100" />
+<img src="./public/landing.png" alt="Landing page" width="300" />
 
 ### Search Page
 
-<img src="./public/finder.png" alt="Search page" width="100" />
+<img src="./public/finder.png" alt="Search page" width="300" />
 
 ### ✨ Current Features
 
