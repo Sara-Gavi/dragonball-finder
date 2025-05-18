@@ -10,7 +10,7 @@ function FinderPage() {
 
   // 2. useEffect
   useEffect(() => {
-    fetch("https://dragonball-api.com/api/characters")
+    fetch("https://dragonball-api.com/api/characters?limit=58")
       .then((response) => response.json())
       .then((data) => {
         setCharacters(data.items);
