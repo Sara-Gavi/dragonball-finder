@@ -1,7 +1,25 @@
 import { Link } from "react-router-dom";
 import kintoApp from "../images/kinto_app.png";
+//Hooks para permitir agregar estado y efectos a componentes
+import { useState, useEffect } from "react";
 
 function FinderPage() {
+  // 1. Variables de estado
+  const [characters, setCharacters] = useState([]);
+  const [nameFilter, setNameFilter] = useState("");
+
+  // 2. useEffect
+  useEffect(() => {
+    fetch("https://dragonball-api.com/api/characters")
+      .then((response) => response.json())
+      .then((data) => {
+        setCharacters(data.items);
+      })
+      .catch((error) => {
+        console.error("Error fetching characters:", error);
+      });
+  }, []);
+
   return (
     <div className="finder">
       <h1 className="finder__title">Discover your character!</h1>
