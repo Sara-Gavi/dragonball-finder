@@ -52,6 +52,13 @@ The landing page is part of that small guide. It’s a pre-built section that on
 The app is deployed using **GitHub Pages**.  
 I use a script already configured to build the project with Vite and move the output files to the `/docs` folder, so GitHub can serve them from the `main` branch.
 
+## and... more future improvements
+- **Reset** button to clear filters.  
+- Split the app into **reusable components**.  
+- Show **error messages** if no results or data issues.  
+- Add a **loading spinner** during fetch.  
+- Try new filters: **race, planet, or max ki**.
+
 Good luck on your journey!  
 Kame... hame... ha! 🔥🐉
 
@@ -109,6 +116,14 @@ La landing page forma parte de esa pequeña guía. Es una sección ya preconstru
 ## 🚀 Deploy
 
 Uso un script para construir el proyecto con Vite y mover los archivos generados a la carpeta `/docs`, desde donde GitHub publica el contenido en la rama `main`.
+
+## y... más mejoras futuras
+
+- Botón de **reset** para limpiar los filtros.  
+- Separar partes en **componentes reutilizables**.  
+- Mostrar **mensajes de error** si no hay resultados o fallan los datos.  
+- Añadir **loading** mientras se cargan los personajes.  
+- Explorar nuevos filtros: **raza, planeta o poder máximo**.
 
 ¡Suerte en tu búsqueda!  
 Kame... hame... ¡ha! 🔥🐉
