@@ -17,7 +17,8 @@ This app helps you begin that journey: searching and discovering the characters 
 - View a **card** with image, description, and base power (_ki_).
 - Navigate between a **custom landing page** and the search page, guided by Kinto, the magic cloud ☁️.
 - _Note: All images and text used in this project respect copyright laws.  
-The logos were designed by me, the images come from royalty-free image banks, and the written content was created for this app._
+The logos were designed by me, some images were generated using AI tools, others come from royalty-free image banks,  
+and the written content was created for this app._
 
 ### 📌 Upcoming Improvements
 
@@ -83,7 +84,7 @@ Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los per
 - Ver una **carta desplegable** con imagen, descripción y poder base (_ki_).
 - Navegar entre una **landing page personalizada** y el buscador, guiado por Kinto, la nube mágica ☁️.
 - _Nota: Todas las imágenes y textos utilizados en este proyecto respetan las leyes de derechos de autor.  
-Los logos han sido diseñados por mí, las imágenes provienen de bancos de imágenes libres y los textos han sido escritos para esta app._
+Los logos han sido diseñados por mí, las imágenes provienen de bancos de imágenes libres e IA y los textos han sido escritos para esta app._
 
 ### 📌 Próximas mejoras
 
