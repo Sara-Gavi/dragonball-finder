@@ -2,6 +2,7 @@
 
 They say that to find the legendary Dragon Balls, you must first know the characters who live in this universe...  
 This app helps you begin that journey: searching and discovering the characters of **Dragon Ball** 🌍
+_All images and visual assets used respect copyright laws. Logos and graphic designs were created by me, and the images used come from royalty-free sources or were generated using artificial intelligence._
 
 ## 🖼️ Screenshots (Landing & Finder)
 
@@ -62,6 +63,7 @@ Kame... hame... ha! 🔥🐉
 
 Dicen que para encontrar las legendarias bolas de dragón, primero debes conocer bien a los personajes que habitan su universo...  
 Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los personajes de **Dragon Ball** 🌍
+_Todas las imágenes y recursos visuales utilizados respetan los derechos de autor. Los logotipos y diseños gráficos son creación propia, y las imágenes utilizadas provienen de bancos libres de derechos o han sido generadas mediante inteligencia artificial_
 
 ## 🖼️ Capturas (Landing y Buscador)
 
