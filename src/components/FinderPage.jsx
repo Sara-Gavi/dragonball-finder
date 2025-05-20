@@ -61,7 +61,13 @@ function FinderPage() {
       <h1 className="finder__title">Discover your character!</h1>
 
       <SearchForm value={nameFilter} onInput={handleInput} />
-      <KiFilterForm />
+      <KiFilterForm
+        kiFromInput={kiFromInput}
+        kiToInput={kiToInput}
+        onKiFromChange={handleKiFromChange}
+        onKiToChange={handleKiToChange}
+        onKiSearch={handleKiSearch}
+      />
 
       {nameFilter !== "" && (
         <>
