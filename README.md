@@ -25,6 +25,10 @@ I’m working beyond the 2-hour limit to add a new feature: **ki range filtering
 I decided to deliver the current version first so it can already be explored and used, while I continue developing the ki filter.  
 This new feature will be available soon and included in the GitHub Pages deployment.
 
+**Additional improvement:**  
+After the initial 2-hour version, I continued working on the codebase to improve its structure.  
+I split the main search page (`FinderPage`) into **reusable components** (`SearchForm`, `CharacterList`, `CharacterItem`, and `BackToHome`).
+
 ## 🧱 Reusable Structure
 
 The landing page is based on my own **project template**, which I use as a starting point for new applications.  
@@ -39,6 +43,7 @@ It helps me reuse styles, structure, and logic quickly, keeping the code clean a
 - **Dragon Ball API** – Data source used: [https://web.dragonball-api.com/documentation](https://web.dragonball-api.com/documentation)
 - **Git (with branches)** – I use `dev` for development and `main` as the stable production branch.
 - **GitHub Pages** – Used to deploy the app statically from the `/docs` folder, generated with Vite.
+- **Documentation and resources** – I relied on the official documentation for React and Vite, development guides from Bluuweb, and ChatGPT to organize components and solve specific questions during development.
 
 ## 🚀 Deployment
 
@@ -74,8 +79,11 @@ Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los per
 ### 📌 Próximas mejoras
 
 Estoy trabajando fuera del límite de 2h para implementar el **filtro por rango de Ki** (`From` / `To`).  
-He preferido entregar primero estas funcionalidades iniciales para que ya se pueda disfrutar la aplicación, mientras sigo desarrollando esa parte final.  
-La nueva funcionalidad estará disponible pronto y se podrá probar online a través de GitHub Pages.
+He preferido entregar primero estas funcionalidades iniciales para que ya se pueda disfrutar la aplicación, mientras sigo desarrollando esa parte final.
+
+**Mejora adicional:**  
+Después de la versión inicial realizada en 2 horas, continué trabajando en la base de código para mejorar su estructura.  
+Separé la página principal de búsqueda (`FinderPage`) en **componentes reutilizables** (`SearchForm`, `CharacterList`, `CharacterItem` y `BackToHome`).
 
 ## 🧱 Reutilización de estructura
 
@@ -91,6 +99,7 @@ Esto me permite **reutilizar estilos, estructura y lógica** de forma eficiente 
 - **Dragon Ball API** – Fuente de datos utilizada: [https://web.dragonball-api.com/documentation](https://web.dragonball-api.com/documentation)
 - **Git (con ramas)** – Uso de `dev` para desarrollo y `main` como rama estable para producción.
 - **GitHub Pages** – Usado para desplegar la aplicación desde la carpeta `/docs`, generada con Vite.
+- **Documentación y recursos** – Me apoyé en la documentación oficial de React y Vite, las guías para desarrollo:Bluuweb, y ChatGPT para organizar componentes y resolver dudas específicas durante el desarrollo.
 
 ## 🚀 Deploy
 
