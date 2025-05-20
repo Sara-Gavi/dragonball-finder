@@ -36,10 +36,41 @@ function FinderPage() {
   const handleExpand = (id) => {
     setExpandedCharacter((prevId) => (prevId === id ? null : id));
   };
-  //4. Characters filtered by name input
+
+  // Apply the name and ki filter to the character array
+  const filteredCharacters = characters.filter((character) => {
+    // 1. Check if the name matches the user s search
+    const characterName = character.name.toLowerCase();
+    const searchInput = nameFilter.toLowerCase();
+    const nameMatches = characterName.includes(searchInput);
+
+    // 2. Convert the character's ki text to a number
+    const kiText = character.ki; // Example: "15,000"
+    const kiOnlyNumbers = kiText.replace(/\D/g, ""); // Remove all non numbers
+    const kiAsNumber = parseInt(kiOnlyNumbers); // "15000" becomes 15000
+
+    // 3. Check if the ki is in the selected range
+    let kiMatches = true; // Start by saying "yes, it matches"
+
+    // If the user wrote a minimum value
+    if (kiFrom !== null) {
+      kiMatches = kiMatches && kiAsNumber >= kiFrom;
+    }
+
+    // If the user wrote a maximum value
+    if (kiTo !== null) {
+      kiMatches = kiMatches && kiAsNumber <= kiTo;
+    }
+
+    // 4. Return the character only if name AND ki match
+    return nameMatches && kiMatches;
+  });
+
+  /*//4. Characters filtered by name input
   const filteredCharacters = characters.filter((character) =>
     character.name.toLowerCase().includes(nameFilter.toLowerCase())
-  );
+  );*/
+
   // 3.2 Event functions for Ki range inputs
   const handleKiFromChange = (event) => {
     setKiFromInput(event.currentTarget.value);
@@ -49,11 +80,24 @@ function FinderPage() {
     setKiToInput(event.currentTarget.value);
   };
 
-  //click the Search button, it takes those values and converts them to numbers
+  //click the Search button, it takes values and converts them to numberrs
   const handleKiSearch = (event) => {
-    event.preventDefault(); // prevents the form from reloading the page
-    setKiFrom(kiFromInput ? parseInt(kiFromInput) : null);
-    setKiTo(kiToInput ? parseInt(kiToInput) : null);
+    // Stop the form from reloading the page
+    event.preventDefault();
+    // If the user wrote something in "From", change it to a number
+    // If not use nulll
+    if (kiFromInput !== "") {
+      setKiFrom(parseInt(kiFromInput));
+    } else {
+      setKiFrom(null);
+    }
+    // If the user wrote something in "To", change it to a number
+    // If not use null
+    if (kiToInput !== "") {
+      setKiTo(parseInt(kiToInput));
+    } else {
+      setKiTo(null);
+    }
   };
 
   return (
@@ -69,7 +113,7 @@ function FinderPage() {
         onKiSearch={handleKiSearch}
       />
 
-      {nameFilter !== "" && (
+      {(nameFilter !== "" || kiFrom !== null || kiTo !== null) && (
         <>
           <p className="finder__results">
             {filteredCharacters.length} results found
