@@ -19,12 +19,13 @@ _Visual elements used in this project respect authorship rights. Logos and graph
 - View a **card** with image, description, and base power (_ki_).
 - Navigate between a **custom landing page** and the search page, guided by Kinto, the magic cloud ☁️.
 
-### 📌 Próximas mejoras y nota de transparencia
+### 📌 Upcoming Improvements & Transparency Note
 
-Estoy trabajando fuera del límite de 2h para implementar el **filtro por rango de Ki** (`From` / `To`).  
-El historial de commits en este repositorio muestra la **evolución del proyecto** y cada mejora realizada tras esa primera versión.
+I’m working beyond the initial 2-hour limit to implement the **Ki range filter** (`From` / `To`).  
+The commit history in this repository shows the **project’s evolution** and each improvement made after that first version.
 
-Siguiendo un enfoque iterativo inspirado en metodologías Agile/Scrum, he entregado una primera versión funcional y utilizable de la aplicación. De este modo, la aplicación ya puede disfrutarse mientras evoluciona con nuevas entregas incrementales.
+Following an iterative approach inspired by Agile/Scrum methodologies, I delivered a first functional and usable version of the application.  
+This way, the app could already be explored while continuing to grow through incremental updates.
 
 **Additional improvement:**  
 After the initial 2-hour version, I continued working on the codebase to improve its structure.  
