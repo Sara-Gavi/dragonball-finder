@@ -40,6 +40,21 @@ function FinderPage() {
   const filteredCharacters = characters.filter((character) =>
     character.name.toLowerCase().includes(nameFilter.toLowerCase())
   );
+  // 3.2 Event functions for Ki range inputs
+  const handleKiFromChange = (event) => {
+    setKiFromInput(event.currentTarget.value);
+  };
+
+  const handleKiToChange = (event) => {
+    setKiToInput(event.currentTarget.value);
+  };
+
+  //click the Search button, it takes those values and converts them to numbers
+  const handleKiSearch = (event) => {
+    event.preventDefault(); // prevents the form from reloading the page
+    setKiFrom(kiFromInput ? parseInt(kiFromInput) : null);
+    setKiTo(kiToInput ? parseInt(kiToInput) : null);
+  };
 
   return (
     <div className="finder">
