@@ -2,7 +2,8 @@
 
 They say that to find the legendary Dragon Balls, you must first know the characters who live in this universe...  
 This app helps you begin that journey: searching and discovering the characters of **Dragon Ball** 🌍
-_All images and visual assets used respect copyright laws. Logos and graphic designs were created by me, and the images used come from royalty-free sources or were generated using artificial intelligence._
+
+_Visual elements used in this project respect authorship rights. Logos and graphic designs were made by me, and the images come from royalty-free sources or were generated using AI._
 
 ## 🖼️ Screenshots (Landing & Finder)
 
@@ -18,10 +19,12 @@ _All images and visual assets used respect copyright laws. Logos and graphic des
 - View a **card** with image, description, and base power (_ki_).
 - Navigate between a **custom landing page** and the search page, guided by Kinto, the magic cloud ☁️.
 
-### 📌 Upcoming Improvements
+### 📌 Próximas mejoras y nota de transparencia
 
-I’m working beyond the 2-hour limit to add a new feature: **ki range filtering** (`From` / `To`).  
-Following an iterative approach inspired by Agile/Scrum methodologies, I delivered a first functional and usable version of the application. This way, the app can already be explored while evolving through incremental updates.
+Estoy trabajando fuera del límite de 2h para implementar el **filtro por rango de Ki** (`From` / `To`).  
+El historial de commits en este repositorio muestra la **evolución del proyecto** y cada mejora realizada tras esa primera versión.
+
+Siguiendo un enfoque iterativo inspirado en metodologías Agile/Scrum, he entregado una primera versión funcional y utilizable de la aplicación. De este modo, la aplicación ya puede disfrutarse mientras evoluciona con nuevas entregas incrementales.
 
 **Additional improvement:**  
 After the initial 2-hour version, I continued working on the codebase to improve its structure.  
@@ -63,7 +66,8 @@ Kame... hame... ha! 🔥🐉
 
 Dicen que para encontrar las legendarias bolas de dragón, primero debes conocer bien a los personajes que habitan su universo...  
 Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los personajes de **Dragon Ball** 🌍
-_Todas las imágenes y recursos visuales utilizados respetan los derechos de autor. Los logotipos y diseños gráficos son creación propia, y las imágenes utilizadas provienen de bancos libres de derechos o han sido generadas mediante inteligencia artificial_
+
+_Los elementos visuales utilizados en este proyecto respetan los derechos de autor. Los logotipos y diseños gráficos fueron creados por mí, y las imágenes provienen de fuentes libres de derechos o fueron generadas con IA._
 
 ## 🖼️ Capturas (Landing y Buscador)
 
@@ -79,9 +83,10 @@ _Todas las imágenes y recursos visuales utilizados respetan los derechos de aut
 - Ver una **carta desplegable** con imagen, descripción y poder base (_ki_).
 - Navegar entre una **landing page personalizada** y el buscador, guiado por Kinto, la nube mágica ☁️.
 
-### 📌 Próximas mejoras
+### 📌 Próximas mejoras y nota de transparencia
 
-Estoy trabajando fuera del límite de 2h para implementar el **filtro por rango de Ki** (`From` / `To`).  
+Estoy trabajando fuera del límite de 2h para implementar el **filtro por rango de Ki** (`From` / `To`). El historial de commits en este repositorio muestra la **evolución del proyecto** y cada mejora realizada tras esa primera versión.
+
 Siguiendo un enfoque iterativo inspirado en metodologías Agile/Scrum, he entregado una primera versión funcional y utilizable de la aplicación. De este modo, la aplicación ya puede disfrutarse mientras evoluciona con nuevas entregas incrementales.
 
 **Mejora adicional:**  
