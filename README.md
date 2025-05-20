@@ -3,15 +3,13 @@
 They say that to find the legendary Dragon Balls, you must first know the characters who live in this universe...  
 This app helps you begin that journey: searching and discovering the characters of **Dragon Ball** 🌍
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots (Landing & Finder)
 
-### Landing Page
+**Landing Page**  
+<img src="./public/landing.png" alt="Landing page" width="300" />
 
-<img src="./public/landing.png" alt="Landing page" width="100" />
-
-### Search Page
-
-<img src="./public/finder.png" alt="Search page" width="100" />
+**Finder Page**  
+<img src="./public/finder.png" alt="Finder page" width="300" />
 
 ### ✨ Current Features
 
@@ -45,6 +43,16 @@ It helps me reuse styles, structure, and logic quickly, keeping the code clean a
 - **GitHub Pages** – Used to deploy the app statically from the `/docs` folder, generated with Vite.
 - **Documentation and resources** – I relied on the official documentation for React and Vite, development guides from Bluuweb, and ChatGPT to organize components and solve specific questions during development.
 
+## 📚 Resources
+
+This project uses a **small personal development guide** that helps me start new applications quickly and consistently.  
+It includes a basic set of styles, reusable components, utility functions like `fetch` and logic for forms or filters, among others.  
+Thanks to this, I can focus on functionality without starting everything from scratch.
+
+## 🧱 Reusable Structure
+
+The landing page is part of that small guide. It’s a pre-built section that only needs light updates (such as text or images) and integrates easily into each new project.
+
 ## 🚀 Deployment
 
 The app is deployed using **GitHub Pages**.  
@@ -60,15 +68,13 @@ Kame... hame... ha! 🔥🐉
 Dicen que para encontrar las legendarias bolas de dragón, primero debes conocer bien a los personajes que habitan su universo...  
 Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los personajes de **Dragon Ball** 🌍
 
-## 🖼️ Capturas
+## 🖼️ Capturas (Landing y Buscador)
 
-### Landing Page
-
+**Landing Page**  
 <img src="./public/landing.png" alt="Landing page" width="300" />
 
-### Página de búsqueda
-
-<img src="./public/finder.png" alt="Search page" width="300" />
+**Página de búsqueda**  
+<img src="./public/finder.png" alt="Finder page" width="300" />
 
 ### ✨ Funcionalidades actuales
 
@@ -100,6 +106,16 @@ Esto me permite **reutilizar estilos, estructura y lógica** de forma eficiente 
 - **Git (con ramas)** – Uso de `dev` para desarrollo y `main` como rama estable para producción.
 - **GitHub Pages** – Usado para desplegar la aplicación desde la carpeta `/docs`, generada con Vite.
 - **Documentación y recursos** – Me apoyé en la documentación oficial de React y Vite, las guías para desarrollo:Bluuweb, y ChatGPT para organizar componentes y resolver dudas específicas durante el desarrollo.
+
+## 📚 Recursos
+
+Este proyecto utiliza una **pequeña guía de desarrollo propia**.
+Incluye una pequeña muestra de estilos base, componentes reutilizables, funciones como `fetch`, lógica para formularios o filtros, entre otras.  
+Gracias a esto, puedo centrarme en la funcionalidad sin tener que empezar desde cero cada vez.
+
+## Reutilización de estructura
+
+La landing page forma parte de esa pequeña guía. Es una sección ya preconstruida que solo necesita pequeñas actualizaciones (como textos o imágenes) y se integra fácilmente en cada nuevo proyecto.
 
 ## 🚀 Deploy
 
