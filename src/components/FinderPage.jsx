@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"; // Hooks to allow adding state and 
 import SearchForm from "./SearchForm";
 import CharacterList from "./CharacterList";
 import BackToHome from "./BackToHome";
+import KiFilterForm from "./KiFilterForm";
 
 function FinderPage() {
   // 1. State variables
@@ -37,6 +38,7 @@ function FinderPage() {
       <h1 className="finder__title">Discover your character!</h1>
 
       <SearchForm value={nameFilter} onInput={handleInput} />
+      <KiFilterForm />
 
       {nameFilter !== "" && (
         <>
