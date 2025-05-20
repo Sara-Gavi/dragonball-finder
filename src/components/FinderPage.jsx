@@ -9,6 +9,14 @@ function FinderPage() {
   const [characters, setCharacters] = useState([]);
   const [nameFilter, setNameFilter] = useState("");
   const [expandedCharacter, setExpandedCharacter] = useState(null);
+
+  // States for what the user types
+  const [kiFromInput, setKiFromInput] = useState("");
+  const [kiToInput, setKiToInput] = useState("");
+  // States for the actual filter values
+  const [kiFrom, setKiFrom] = useState(null);
+  const [kiTo, setKiTo] = useState(null);
+
   // 2. useEffect
   useEffect(() => {
     fetch("https://dragonball-api.com/api/characters?limit=58")
