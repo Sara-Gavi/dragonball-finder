@@ -20,8 +20,7 @@ This app helps you begin that journey: searching and discovering the characters 
 ### 📌 Upcoming Improvements
 
 I’m working beyond the 2-hour limit to add a new feature: **ki range filtering** (`From` / `To`).  
-I decided to deliver the current version first so it can already be explored and used, while I continue developing the ki filter.  
-This new feature will be available soon and included in the GitHub Pages deployment.
+Following an iterative approach inspired by Agile/Scrum methodologies, I delivered a first functional and usable version of the application. This way, the app can already be explored while evolving through incremental updates.
 
 **Additional improvement:**  
 After the initial 2-hour version, I continued working on the codebase to improve its structure.  
@@ -48,10 +47,6 @@ It helps me reuse styles, structure, and logic quickly, keeping the code clean a
 This project uses a **small personal development guide** that helps me start new applications quickly and consistently.  
 It includes a basic set of styles, reusable components, utility functions like `fetch` and logic for forms or filters, among others.  
 Thanks to this, I can focus on functionality without starting everything from scratch.
-
-## 🧱 Reusable Structure
-
-The landing page is part of that small guide. It’s a pre-built section that only needs light updates (such as text or images) and integrates easily into each new project.
 
 ## 🚀 Deployment
 
@@ -85,7 +80,7 @@ Esta aplicación te permite empezar ese viaje: buscando y descubriendo a los per
 ### 📌 Próximas mejoras
 
 Estoy trabajando fuera del límite de 2h para implementar el **filtro por rango de Ki** (`From` / `To`).  
-He preferido entregar primero estas funcionalidades iniciales para que ya se pueda disfrutar la aplicación, mientras sigo desarrollando esa parte final.
+Siguiendo un enfoque iterativo inspirado en metodologías Agile/Scrum, he entregado una primera versión funcional y utilizable de la aplicación. De este modo, la aplicación ya puede disfrutarse mientras evoluciona con nuevas entregas incrementales.
 
 **Mejora adicional:**  
 Después de la versión inicial realizada en 2 horas, continué trabajando en la base de código para mejorar su estructura.  
@@ -105,17 +100,12 @@ Esto me permite **reutilizar estilos, estructura y lógica** de forma eficiente 
 - **Dragon Ball API** – Fuente de datos utilizada: [https://web.dragonball-api.com/documentation](https://web.dragonball-api.com/documentation)
 - **Git (con ramas)** – Uso de `dev` para desarrollo y `main` como rama estable para producción.
 - **GitHub Pages** – Usado para desplegar la aplicación desde la carpeta `/docs`, generada con Vite.
-- **Documentación y recursos** – Me apoyé en la documentación oficial de React y Vite, las guías para desarrollo:Bluuweb, y ChatGPT para organizar componentes y resolver dudas específicas durante el desarrollo.
+- **Documentación y recursos** – Me apoyé en la documentación oficial de React y Vite, las guías para desarrollo de Bluuweb, y ChatGPT para organizar componentes y resolver dudas específicas durante el desarrollo.
 
 ## 📚 Recursos
 
-Este proyecto utiliza una **pequeña guía de desarrollo propia**.
-Incluye una pequeña muestra de estilos base, componentes reutilizables, funciones como `fetch`, lógica para formularios o filtros, entre otras.  
-Gracias a esto, puedo centrarme en la funcionalidad sin tener que empezar desde cero cada vez.
-
-## Reutilización de estructura
-
-La landing page forma parte de esa pequeña guía. Es una sección ya preconstruida que solo necesita pequeñas actualizaciones (como textos o imágenes) y se integra fácilmente en cada nuevo proyecto.
+Este proyecto utiliza una **pequeña guía de desarrollo propia**.  
+Incluye una pequeña muestra de estilos base, componentes reutilizables, funciones como `fetch`, lógica para formularios o filtros, entre otras. Gracias a esto, puedo centrarme en la funcionalidad sin tener que empezar desde cero cada vez.
 
 ## 🚀 Deploy
 
